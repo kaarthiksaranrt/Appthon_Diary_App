@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DiaryApp</string>
+    <string name="personal_diary">PERSONAL DIARY</string>
+    <string name="please_enter_passcode">Enter a passcode of 4-6 digits</string>
+    <string name="lock_input_again">Re-enter new passcode</string>
+    <string name="lock_input_not_match">Passcodes do not match.</string>
+    <string name="child_activity_string">childActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/feelings_id"
+    tools:context=".Feelings_frag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:layout_marginBottom="40dp"
+        android:text="FEELINGS" />
+
+    <ListView
+        android:id="@+id/list_view_items"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:gravity="bottom"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="310dp"
+        android:background="@drawable/ic_add_button" />
+
+</FrameLayout>
